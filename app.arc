@@ -2,7 +2,9 @@
 begin-app
 
 @http
-post /graphql
+/graphql
+  method post
+  src api
 
 @tables
 data

@@ -1,6 +1,9 @@
 @app
 begin-app
 
+@static
+folder ui
+
 @http
 /graphql
   method post
